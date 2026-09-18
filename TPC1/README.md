@@ -23,9 +23,10 @@ Para dar resposta ao problema, foi criado um loop que permite a repetição das 
 
 ### Ex2. Boat (Blockly: Turtle)
 **Descrição do Problema**
-
+Neste exercício, o objetivo era reproduzir o desenho proposto pelos docentes usando o turtle da plataforma blockly.
 
 **Abordagem**
+De modo a facilitar a resolução do problema iniciou-se dividindo o desenho em vários componentes. Em seguida foram criadas variáveis, o que permitiu simplificar as instruções dadas e estabelecer distâncias/ângulos fixos permitindo uniformizar medidas e manter a simetria nas partes do desenho que o exigiam. Em cada elemento do desenho procurou-se simplificar as instruções, assim sendo, recorreu-se aos diversos blocos apresentados consoante a situação procurando otimizar ao máximo o seu uso.
 
 ## Lista de Resultados
 
