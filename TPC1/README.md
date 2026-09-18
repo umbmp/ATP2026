@@ -1,4 +1,4 @@
-# Manifesto TPC1
+# TPC1
 
 ## Autora
 <img src="FotoCC.jpeg"  width="150"/>
