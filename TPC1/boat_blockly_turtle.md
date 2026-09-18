@@ -1,6 +1,7 @@
 # Ex2. Desenho do Barco (Blockly: Turtle)
 
 ## Resultado do Desenho
+<img src="desenho.jpg"  width="250"/>
 
 ## Estrutura Principal do Código
 <img src="estrutura principal.jpg"  width="200"/>
