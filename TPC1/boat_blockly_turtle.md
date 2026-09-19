@@ -23,7 +23,7 @@ imagens 3 e 4- bloco correspondente ao mar
 
 imagem 5- bloco correspondente às nuvens no lado esquerdo do desenho
 
-<img src="Sol.jpg"  width="250"/> 
+<img src="sol.jpg"  width="250"/> 
 
 imagem 6- bloco correspondente ao sol
 
