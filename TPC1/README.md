@@ -3,8 +3,8 @@
 ## Autora
 <img src="FotoCC.jpeg"  width="150"/>
 
-Beatriz Matos Pereira
-A114502
+-Beatriz Matos Pereira
+-A114502
 
 ## Resumo
 ### Ex1. Blockly: Maze
