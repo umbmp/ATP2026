@@ -4,7 +4,7 @@ import random # gerar número aleatório
 
 def nvalid():
     while True:
-        numero = int(input("\nInsere um número: "))
+        numero = int(input("\nInsere um número inteiro: "))
 
         if numero >= 0 and numero <= 100:
             return numero
