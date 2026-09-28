@@ -42,7 +42,7 @@ def jogo2():
                "\n  [2]Não, o número que eu pensei é maior.\n  [3]Não, o número que eu pensei  é menor.\n"))
         
         if opt == 1:
-            return print
+            return print (f"Acertaste em {tentativas} tentativas.")
         
         elif opt == 2:
             min = cpu
@@ -61,7 +61,7 @@ def jogo2():
 # ciclo para poder repetir o jogo (tenho que ter while)
 while True:
 
-    opt = int(input("Adivinha-tron!\nMenu:" \
+    opt = int(input("Adivinha o número!\nMenu:" \
     "\n  [1] Adivinha o número (de 0 a 100) que o computador escolhe:" \
     "\n  [2] Escolhe um número (de 0 a 100) para o computador adivinhar:" \
     "\n  [3] Sair do jogo\n"))
