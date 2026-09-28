@@ -15,7 +15,7 @@ def nvalid():
 def jogo1():
     while True:
         tentativas = 0
-        cpu = int(random.randrange(0, 100)) #número escolhido pelo computador
+        cpu = int(random.randrange(0, 101)) #número escolhido pelo computador
         njogador = nvalid()
 
         if cpu > njogador:
