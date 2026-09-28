@@ -4,7 +4,7 @@ import random # gerar número aleatório
 
 def nvalid():
     while True:
-        numero = int(input("\nInsere um número inteiro: "))
+        numero = int(input("\nInsere um número inteiro:"))
 
         if numero >= 0 and numero <= 100:
             return numero
@@ -38,11 +38,11 @@ def jogo2():
     print("Pensa num número inteiro de 0 a 100.")
 
     while True:
-        opt = int(input(f"O teu número é {cpu}?\n  [1]Sim, acertaste! Em {tentativas} tentativas" \
+        opt = int(input(f"O teu número é {cpu}?\n  [1]Sim, acertaste!" \
                "\n  [2]Não, o número que eu pensei é maior.\n  [3]Não, o número que eu pensei  é menor."))
         
         if opt == 1:
-            return
+            return print
         
         elif opt == 2:
             min = cpu
