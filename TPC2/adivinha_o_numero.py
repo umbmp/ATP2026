@@ -19,9 +19,9 @@ def jogo1():
         njogador = nvalid()
 
         if cpu > njogador:
-            print("Escolhe um número mais alto.")
+            print("O número que pensei é maior.")
         elif cpu < njogador:
-            print("Escolhe um número mais baixo.")
+            print("O número que pensei é menor.")
         else:
             print (f"Parabéns! Acertaste no número em {tentativas} tentativas")
             return
@@ -33,12 +33,13 @@ def jogo2():
     max = 100
     min = 0
     cpu = (max - min)//2 #divisão inteira
+    tentativas = 0
 
     print("Pensa num número inteiro de 0 a 100.")
 
     while True:
-        opt = int(input(f"O teu número é {cpu}?\n  [1]Sim, acertaste!" \
-               "\n  [2]Não, é maior.\n  [3]Não, é menor."))
+        opt = int(input(f"O teu número é {cpu}?\n  [1]Sim, acertaste! Em {tentativas} tentativas" \
+               "\n  [2]Não, o número que eu pensei é maior.\n  [3]Não, o número que eu pensei  é menor."))
         
         if opt == 1:
             return
@@ -53,6 +54,8 @@ def jogo2():
 
         else:
             print("Opção inválida. Tente novamente.")
+
+        tentativas = tentativas + 1
 
 
 # ciclo para poder repetir o jogo (tenho que ter while)
