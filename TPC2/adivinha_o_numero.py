@@ -39,7 +39,7 @@ def jogo2():
 
     while True:
         opt = int(input(f"O teu número é {cpu}?\n  [1]Sim, acertaste!" \
-               "\n  [2]Não, o número que eu pensei é maior.\n  [3]Não, o número que eu pensei  é menor."))
+               "\n  [2]Não, o número que eu pensei é maior.\n  [3]Não, o número que eu pensei  é menor.\n"))
         
         if opt == 1:
             return print
