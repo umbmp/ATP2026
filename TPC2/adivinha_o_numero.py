@@ -62,8 +62,8 @@ def jogo2():
 while True:
 
     opt = int(input("Adivinha o número!\nMenu:" \
-    "\n  [1] Adivinha o número (de 0 a 100) que o computador escolhe:" \
-    "\n  [2] Escolhe um número (de 0 a 100) para o computador adivinhar:" \
+    "\n  [1] Adivinha o número (de 0 a 100) que o computador escolhe." \
+    "\n  [2] Escolhe um número (de 0 a 100) para o computador adivinhar." \
     "\n  [3] Sair do jogo\n"))
 
     if opt == 1:
