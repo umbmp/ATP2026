@@ -10,7 +10,7 @@ def nvalid ():
     
 
 def jogo ():
-    while soma <= 89
+    while soma <= 100
         num = nvalid ()
         soma = soma + num
         print (f"O valor atual é {soma}")
@@ -21,8 +21,8 @@ def jogo ():
     return soma
 
 def sol1 ():
-     res = 100 - soma
-     print (f"Escolho o número {res}. Ganhei a corrida ao 100!!")
+    res = 100 - soma
+    print (f"Escolho o número {res}. Ganhei a corrida ao 100!!")
     return 
 
      
@@ -38,7 +38,7 @@ while True:
         soma = nvalid ()
         if soma != 1:
             jogo ()
-            if soma>= 90 and 
+            
                  
         el
 
