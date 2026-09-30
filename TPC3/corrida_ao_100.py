@@ -1,8 +1,8 @@
 import random
 
 def nvalid ():
-    num = int(input("Insira um número inteiro de 0 a 10"))
-    if num >= 0 and num <= 10:
+    num = int(input("Insira um número inteiro de 1 a 10"))
+    if num >= 1 and num <= 10:
                 return num
         
     else:
@@ -10,7 +10,7 @@ def nvalid ():
     
 
 def jogo ():
-    while soma <= 100
+    while soma <= 100:
         num = nvalid ()
         soma = soma + num
         print (f"O valor atual é {soma}")
@@ -40,11 +40,11 @@ while True:
             jogo ()
             
                  
-        el
+        
 
              
     elif op == 2:
-         soma = int(random.randrange(0, 11))
+         soma = int(random.randrange(1, 11))
          jogo ()
          sol1 ()
          
