@@ -47,6 +47,7 @@ while True:
          
     elif op == 3:
         print("Até à próxima!")
+        exit
         
 
     else:
