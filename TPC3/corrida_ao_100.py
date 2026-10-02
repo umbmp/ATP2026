@@ -9,7 +9,7 @@ def nvalid():
         else:
              print("O número inserido não é válido")
 
-def jogo(inicial = 0):
+def jogo(inicial):
     soma = inicial
     while True:
         num = nvalid()
@@ -39,7 +39,7 @@ while True:
     op = int(input("Selecione uma opção\n"))
 
     if op == 1:
-        jogo()
+        jogo(0)
              
     elif op == 2:
         print("Escolho o número 1.")
@@ -47,7 +47,7 @@ while True:
          
     elif op == 3:
         print("Até à próxima!")
-        break
+        
 
     else:
         print("Opção não suportada. Tente novamente.")
