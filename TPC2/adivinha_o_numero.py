@@ -77,7 +77,7 @@ while True:
     elif opt == 3:
         #sair
         print("Adeus :)")
-        break
+        exit
 
     else:
         print("A opção introduzida é invalida. Por favor, tente novamente.")
