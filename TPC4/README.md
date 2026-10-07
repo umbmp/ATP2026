@@ -10,6 +10,7 @@
 
 ### **Descrição do Problema**
 
+Criação de um prgrma que permite a manipulação de listas.
 
 ## Lista de Resultados
 
