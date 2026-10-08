@@ -1,17 +1,19 @@
 import random
 
 def nvalid():
-    while True:
+    executar = True
+    while executar:
         num = int(input("Insira um número inteiro de 1 a 10\n"))
         if num >= 1 and num <= 10:
-                return num
-        
+            executar = False
         else:
              print("O número inserido não é válido")
+    return num
 
 def jogo(inicial):
     soma = inicial
-    while True:
+    executar = True
+    while executar:
         num = nvalid()
         soma = soma + num
         print(f"O valor atual é {soma}")
@@ -27,12 +29,15 @@ def jogo(inicial):
                 print("Chegaste aos 100. Parabéns!!")
             else:
                 print("Ups! Ultrapassaste os 100.")
-            return
+        executar = False
+            
+    return
+            
      
 
 #menu do jogo
 
-while True:
+while op != 3:
     print("Olá! Sê bem-vindo à corrida ao 100.\n Menu\n\
    [1] Utilizador joga primeiro.\n   [2] Computador joga primeiro.\n   [3] Sair.")
 
@@ -46,8 +51,7 @@ while True:
         jogo(1)      
          
     elif op == 3:
-        print("Até à próxima!")
-        exit
+        print("Até à próxima!")    
         
 
     else:
