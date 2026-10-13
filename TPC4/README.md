@@ -23,4 +23,4 @@ Criação de um programa que permite a manipulação de listas:
 
 | Exercício | Descrição do artefacto |
 | ----------- | ----------- |
-| [jogo](tpc4.ipynb) | Ficheiro python com o código que dá resposta ao problema
+| [jogo](tpc4.py) | Ficheiro python com o código que dá resposta ao problema
