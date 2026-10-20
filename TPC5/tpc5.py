@@ -33,8 +33,7 @@ def guardarTurma(turma, fnome):
     for aluno in turma:
         nome, id, notas = aluno
         notaTPC, notaProj, notaTeste = notas
-        file.write(f"{nome}#{id}#{notaTPC};{notaProj};{notaTeste};")
-        file.write("\n")
+        file.write(f"{nome}#{id}#{notaTPC};{notaProj};{notaTeste}\n")
     file.close()
 
 def carregarTurma(fnome):
@@ -47,9 +46,8 @@ def carregarTurma(fnome):
         notaProj = float(partesNotas[1])
         notaTeste = float(partesNotas[2])
         notas = [notaTPC, notaProj, notaTeste]
-        aluno = (nome, id, notas)
+        aluno = (nome, int(id), notas)
         turma.append(aluno)
-    
     file.close()
     return turma
 
