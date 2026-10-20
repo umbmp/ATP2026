@@ -22,7 +22,7 @@ def listar_alunos(turma):
 def procurar_id(turma,id):
     
     aluno = None
-    for a in t:
+    for a in turma:
         if a[1] == id:
             aluno = a
     return aluno
