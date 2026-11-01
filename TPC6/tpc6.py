@@ -112,35 +112,35 @@ op = int(input("Escolha uma opção:\n"))
 while op != 0:
      
     if op == 1:
-        medias()
+        medias(tabMeteo1)
 
     elif op == 2:
         ficheiro = input("Insira como quer guardar o ficheiro.")
-        guardaTabMeteo(t,ficheiro)
+        guardaTabMeteo(tabMeteo1,ficheiro)
 
     elif op == 3:
         ficheiro = input("Insira o ficheiro a carregar.")
         carregaTabMeteo(ficheiro)
 
     elif op == 4:
-        minMin()
+        minMin(tabMeteo1)
 
     elif op == 5:
-        amplTerm()
+        amplTerm(tabMeteo1)
 
     elif op == 6:
-        maxChuva()
+        maxChuva(tabMeteo1)
 
     elif op == 7:
         lim =int(input("Insira o Limite que pretende usar"))
-        diasChuvosos(, lim)
+        diasChuvosos(tabMeteo1, lim)
 
     elif op == 8:
         lim =int(input("Insira o Limite que pretende usar"))
-        maxPeriodoCalor(, lim)
+        maxPeriodoCalor(tabMeteo1, lim)
 
     elif op == 9:
-        grafTabMeteo()
+        grafTabMeteo(tabMeteo1)
 
     else:
          print("Opção inválida. Tente novamente.")
