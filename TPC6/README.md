@@ -17,4 +17,4 @@ Este programa permite ao utilizador fazer a análise de dados da tabela de diver
 
 | Exercício | Descrição do artefacto |
 | ----------- | ----------- |
-| [jogo](tpc6.py) | Ficheiro python com o código que dá resposta ao problema
+| [Analisar Tabela](tpc6.py) | Ficheiro python com o código que dá resposta ao problema

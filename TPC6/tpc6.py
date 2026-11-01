@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+tabMeteo1 = [((2022,1,20), 2, 16, 0),((2022,1,21), 1, 13, 0.2), ((2022,1,22), 7, 17, 0.01)]
 
 def medias(tabMeteo):
     res = []
@@ -79,10 +80,10 @@ def maxPeriodoCalor(tabMeteo, p):
             imax = i
     return imax
 
-def grafTabMeteo(t):
-    y_min = [tmin for _, tmin, _, _ in t]
-    y_max = [tmax for _, _, tmax, _ in t]
-    y_plu = [plu for _, _, _, plu in t]
+def grafTabMeteo(tabMeteo):
+    y_min = [tmin for _, tmin, _, _ in tabMeteo]
+    y_max = [tmax for _, _, tmax, _ in tabMeteo]
+    y_plu = [plu for _, _, _, plu in tabMeteo]
     x = [f"{data[0]}-{data[1]}-{data[2]}" for data, *_ in t]
     plt.plot(x, y_min, color = "green", marker="o", label="Temperatura mínima")
     plt.plot(x, y_max, color = "red", marker="o", label="Temperatura máxima")
