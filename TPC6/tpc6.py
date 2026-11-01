@@ -84,7 +84,7 @@ def grafTabMeteo(tabMeteo):
     y_min = [tmin for _, tmin, _, _ in tabMeteo]
     y_max = [tmax for _, _, tmax, _ in tabMeteo]
     y_plu = [plu for _, _, _, plu in tabMeteo]
-    x = [f"{data[0]}-{data[1]}-{data[2]}" for data, *_ in t]
+    x = [f"{data[0]}-{data[1]}-{data[2]}" for data, *_ in tabMeteo]
     plt.plot(x, y_min, color = "green", marker="o", label="Temperatura mínima")
     plt.plot(x, y_max, color = "red", marker="o", label="Temperatura máxima")
     plt.plot(x, y_plu, color = "blue", marker="o", label="Pluviosidade")
